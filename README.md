@@ -1,3 +1,19 @@
+This is the example of my [Android Inline Hook Project](https://github.com/GToad/Android_Inline_Hook.git) in arm mode.
+
+The target APP is `arm32-example.apk` and our .so file has already been compiled in `/libs/armeabi-v7a/libInlineArmHook.so`.
+
+In this APP, you should touch the button more than 10 and it will show `Enough` in a toast. After the example `libInlineArmHook.so` is effective, the register R0 will be set to 0x333 (>10) so you can touch it just once to get `Enough`.
+
+`notArmHooked.mp4` shows the APP run in a normal environment.
+
+`ArmHooked.mp4` shows the APP run in a hooked environment.
+
+The pictures of effect are showed below:
+
+![](https://gtoad.github.io/img/in-post/post-android-native-hook-practice/notArmHooked.png)
+![](https://gtoad.github.io/img/in-post/post-android-native-hook-practice/ArmHooked.png)
+
+
 # Android Inline Hook
 
 This project make an Android .so file that can automatically do some native hook works.
