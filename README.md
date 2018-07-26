@@ -1,4 +1,4 @@
-This is the example of my [Android Inline Hook Project](https://github.com/GToad/Android_Inline_Hook.git) in arm mode.
+This is the example of my [Android Inline Hook Project](https://github.com/GToad/Android_Inline_Hook.git) in arm mode. So I will only update that repo.
 
 The target APP is `arm32-example.apk` and our .so file has already been compiled in `/libs/armeabi-v7a/libInlineArmHook.so`.
 
